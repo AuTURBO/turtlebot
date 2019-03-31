@@ -3,6 +3,7 @@ Reference git is master branch of https://bitbucket.org/theconstructcore/turtleb
 I modify some code to operate turtlebot at kinetic and melodic.  
 I remove turtlebot/turtlebot_rtab/models_original/demo_mapping.bag. The file size is so large.  
 I check only Gazebo Simulation , teleop operation , depth data, rgb data and lidar.  
+I don't check navigation algorithm .  
 
 # Run On Melodic
 *Download & Build  
