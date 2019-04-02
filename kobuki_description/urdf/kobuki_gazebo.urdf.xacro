@@ -213,7 +213,8 @@
 				</noise>
 			</ray>
 			<plugin name="gazebo_ros_head_hokuyo_controller" filename="libgazebo_ros_gpu_laser.so">
-				<topicName>/kobuki/laser/scan</topicName>
+				<!--<topicName>/kobuki/laser/scan</topicName>-->
+				<topicName>/scan</topicName>
 				<frameName>laser_sensor_link</frameName>
 			</plugin>
 		</sensor>
